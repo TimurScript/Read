@@ -45,3 +45,11 @@ local Section = Tab:NewSection("Death Penalty")
 Section:NewButton("Death Penalty (OP)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8c08b8f2252eec7dbb77d253d269bb65.lua"))()
 end)
+
+local Tab = Window:NewTab("Prison Life")
+
+local Section = Tab:NewSection("Prison Life")
+
+Section:NewButton("PrizzLife", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/devguy100/PrizzLife/main/pladmin.lua'))()
+end)
