@@ -1,2 +1,47 @@
-# Read
-в
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+
+local Window = Library.CreateLib("TimurGui", "RJTheme1")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Fly")
+
+Section:NewButton("Fly script", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+Section:NewButton("Infinite yield", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Tab = Window:NewTab("Script")
+
+local Section = Tab:NewSection("ESP")
+
+Section:NewButton("Highlight", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n88ttmFh"))()
+end)
+
+local Tab = Window:NewTab("Forsaken")
+
+local Section = Tab:NewSection("Script")
+
+Section:NewButton("Forsaken", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+end)
+
+local Tab = Window:NewTab("Bassicaly FNF")
+
+local Section = Tab:NewSection("FNF")
+
+Section:NewButton("Bassicaly FNF orbit", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Basically-FNF:-Remix-AutoPlayer-Lite-9989"))()
+end)
+
+local Tab = Window:NewTab("Death Penalty")
+
+local Section = Tab:NewSection("Death Penalty")
+
+Section:NewButton("Death Penalty (OP)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8c08b8f2252eec7dbb77d253d269bb65.lua"))()
+end)
